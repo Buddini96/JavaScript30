@@ -5,3 +5,28 @@ transform: This is a CSS property that allows you to apply transformations to an
 translateY(): This is a specific type of transformation that affects the vertical position of the element. It takes a value in pixels, and in this case, it's -3px, which means the element will be moved 3 pixels upward.
 
 So, in simple terms, this CSS rule is telling the browser to shift the element 3 pixels up from its original position on the webpage.
+
+
+///////////////////////////////////////////////////////////////////////
+
+The CSS property transform-origin is used to set the point around which an element is transformed. In this case, transform-origin: 100%; is setting the transformation origin to the right edge of the element.
+
+Breaking it down:
+
+transform-origin: This property determines the point around which the transformation will occur.
+
+100%: This value is relative to the width of the element. Setting it to 100% means the transformation will happen around the right edge of the element.
+
+In simpler terms, it means that when a transformation (like rotation or scaling) is applied to the element, it will be centered on its right edge. If you imagine the element as a rectangle, the right edge will act as the pivot point for the transformation.
+
+
+////////////////////////////////////////////////////////////////////////
+
+
+The CSS code transform: rotate(90deg); is used to rotate an element on a web page by 90 degrees. Let's break it down:
+
+transform: This is a CSS property that allows you to apply transformations to an element.
+
+rotate(90deg): This is a specific transformation function applied to the element. It specifies a rotation, and in this case, it's rotating the element by 90 degrees.
+
+In simpler terms, this CSS rule is telling the browser to rotate the element 90 degrees clockwise. So, if the element was originally oriented horizontally, it will now be turned vertically.
