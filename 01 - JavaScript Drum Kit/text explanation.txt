@@ -1,0 +1,30 @@
+--- const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`); --
+
+1. const: This keyword declares a constant variable named audio, which means its value cannot be reassigned.
+
+2. audio: This is the name of the variable being declared.
+
+3. document.querySelector: This is a method provided by the Document Object Model (DOM) in JavaScript. It is used to select and retrieve the first HTML element that matches a specified CSS selector.
+
+4. ``: Backticks are used to create a template literal, allowing you to embed expressions inside strings.
+
+5. audio[data-key="${e.keyCode}"]: This is the CSS selector enclosed within backticks. It is searching for an <audio> element with a data-key attribute equal to the value of e.keyCode. The ${e.keyCode} part is an expression that gets replaced with the actual value of e.keyCode.
+
+6. In simple terms, this code is selecting an <audio> element on the web page that has a data-key attribute matching the value of the e.keyCode variable. It's commonly used in projects where you want to play a specific audio file associated with a key press on the keyboard.
+
+-----------------     ` `        -----------------------------
+Certainly! Think of backticks as a special kind of quotation marks in JavaScript that let you put variables directly inside a string. It makes it easier to combine regular text with the values of variables.
+
+
+
+///////////////////////////////////////////////////////////////////////
+
+key.classList.add('playing');
+
+1. key: This is a variable (presumably) that represents an HTML element.
+
+2. classList: This is a property of HTML elements that provides access to the list of classes (CSS classes) for that element.
+
+3. add('playing'): This is a method of the classList property. It adds the specified class, in this case, 'playing', to the list of classes for the HTML element.
+
+4. In simpler terms, this line of code is adding the CSS class 'playing' to the HTML element represented by the variable key. Adding a class to an element often triggers a change in its appearance or behavior, and it's commonly used in web development to apply styles or execute specific actions when a certain class is present.
